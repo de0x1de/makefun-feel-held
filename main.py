@@ -4,6 +4,9 @@ TEXT = "The lists can wait. The verdicts can wait. Rain finds the window one dro
 
 
 def main() -> None:
+    """Write the entry text, after verifying it stays within spec."""
+    # Guard: the entry must be non-empty and at most 280 code points.
+    assert 1 <= len(TEXT) <= 280 and TEXT.strip()
     output_path = Path("/output/entry.txt")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(TEXT, encoding="utf-8")
