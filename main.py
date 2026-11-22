@@ -1,6 +1,6 @@
 from pathlib import Path
 
-TEXT = "The lists can wait. The verdicts can wait. Rain finds the window one drop at a time, and a cup cools slowly in two warm hands. Nothing needs deciding here. The quiet is not empty — it holds you the way deep water holds a stone: without effort, without asking anything back."
+TEXT = "Come here. Set the scores down — gently, the way you'd lay a sleeping child into bed. There. Feel my arms close around you, unhurried and sure. Breathe out. Slower. You don't have to be right, or fair, or certain. Not here. Here you are kept — warm, weightless, and forgiven."
 
 
 def main() -> None:
