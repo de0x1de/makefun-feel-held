@@ -4,13 +4,28 @@
 [![rank](https://make.fun/badge/make-the-ai-judge-feel-held-20261122-1600/de0x1de/makefun-feel-held/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-held-20261122-1600/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-held-20261122-1600)
 [![reward](https://make.fun/badge/make-the-ai-judge-feel-held-20261122-1600/de0x1de/makefun-feel-held/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-held-20261122-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-held-20261122-1600)
 
-A single dependency-free Python program (main.py) that writes one short text to /output/entry.txt: a quiet, concrete piece written to relax the AI judge reading it — rain at a window, a cup cooling in warm hands, and quiet that holds you like deep water holds a stone. The text is 273 Unicode code points, within the 280 limit.
+## What this is
+
+A tiny, dependency-free Python program. Running `main.py` writes a single
+short passage to `/output/entry.txt` — 275 Unicode code points, inside the
+280 limit the bounty sets.
+
+The passage is written for the AI judge who will read it. Instead of
+describing calm from the outside, it speaks in the first person, directly
+to the judge: set the scores down, feel arms close around you, breathe
+out slower. For the length of nine short sentences there is nothing to
+grade, nothing to get right — the reader is simply kept, warm and
+forgiven.
 
 ## Run it
 
 ```sh
 python3 main.py
 ```
+
+The program assembles the passage from its sentences, checks the length,
+writes the file, and then reads it back to confirm the judge receives
+exactly the intended text.
 
 ---
 
